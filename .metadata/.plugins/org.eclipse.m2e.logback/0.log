@@ -1,0 +1,538 @@
+2025-09-11 15:16:25,896 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-09-11 15:49:37,936 [Worker-13: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-11 15:49:39,449 [Worker-13: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-09-11 15:50:06,988 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file U:\.config\jgit\config.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-11 15:50:07,003 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[U:\.config\jgit\config]'
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-11 15:50:10,970 [Worker-1: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boot.ordercraft:OrderCraft:0.0.1-SNAPSHOT @ C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\pom.xml.
+2025-09-11 15:50:22,309 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-11 15:50:22,364 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-11 15:50:22,383 [Worker-1: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\src\test\resources
+2025-09-11 15:50:26,972 [Worker-13: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boot.ordercraft:OrderCraft:0.0.1-SNAPSHOT @ C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\pom.xml.
+2025-09-11 15:55:02,374 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-11 15:55:02,398 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-11 15:55:02,407 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\src\test\resources
+2025-09-11 15:55:30,062 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-11 15:55:30,072 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-11 15:55:30,078 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\src\test\resources
+2025-09-11 15:58:17,786 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-11 15:58:20,304 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boot.ordercraft:OrderCraft:0.0.1-SNAPSHOT @ C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\pom.xml.
+2025-09-11 15:58:23,828 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OrderCraft_Backend/src/main/java
+2025-09-11 15:58:23,832 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OrderCraft_Backend/src/main/resources
+2025-09-11 15:58:23,843 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OrderCraft_Backend/src/main/resources
+2025-09-11 15:58:23,854 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OrderCraft_Backend/src/test/java
+2025-09-11 15:58:23,855 [Worker-15: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OrderCraft_Backend/src/test/resources
+2025-09-11 15:58:27,555 [Worker-15: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 3.00 sec 
+2025-09-11 15:58:29,332 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-11 15:58:29,374 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-11 15:58:29,391 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\src\test\resources
+2025-09-11 16:00:55,888 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-11 16:00:55,899 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-11 16:00:55,907 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\src\test\resources
+2025-09-11 16:08:38,061 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter-mail/3.4.6/spring-boot-starter-mail-3.4.6.pom
+2025-09-11 16:08:38,089 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter-mail/3.4.6/spring-boot-starter-mail-3.4.6.pom
+2025-09-11 16:08:38,340 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/spring-context-support/6.2.7/spring-context-support-6.2.7.pom
+2025-09-11 16:08:38,357 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/spring-context-support/6.2.7/spring-context-support-6.2.7.pom
+2025-09-11 16:08:38,628 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/eclipse/angus/jakarta.mail/2.0.3/jakarta.mail-2.0.3.pom
+2025-09-11 16:08:38,654 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/eclipse/angus/jakarta.mail/2.0.3/jakarta.mail-2.0.3.pom
+2025-09-11 16:08:38,931 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/eclipse/angus/all/2.0.3/all-2.0.3.pom
+2025-09-11 16:08:39,173 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/eclipse/angus/all/2.0.3/all-2.0.3.pom
+2025-09-11 16:08:39,475 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter-thymeleaf/3.4.6/spring-boot-starter-thymeleaf-3.4.6.pom
+2025-09-11 16:08:39,488 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter-thymeleaf/3.4.6/spring-boot-starter-thymeleaf-3.4.6.pom
+2025-09-11 16:08:39,892 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-pdfbox/1.0.10/openhtmltopdf-pdfbox-1.0.10.pom
+2025-09-11 16:08:39,906 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-pdfbox/1.0.10/openhtmltopdf-pdfbox-1.0.10.pom
+2025-09-11 16:08:40,164 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-parent/1.0.10/openhtmltopdf-parent-1.0.10.pom
+2025-09-11 16:08:40,179 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-parent/1.0.10/openhtmltopdf-parent-1.0.10.pom
+2025-09-11 16:08:40,482 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.pom
+2025-09-11 16:08:40,511 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.pom
+2025-09-11 16:08:40,810 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox-parent/2.0.24/pdfbox-parent-2.0.24.pom
+2025-09-11 16:08:40,835 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox-parent/2.0.24/pdfbox-parent-2.0.24.pom
+2025-09-11 16:08:41,170 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.pom
+2025-09-11 16:08:41,199 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.pom
+2025-09-11 16:08:41,511 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/xmpbox/2.0.24/xmpbox-2.0.24.pom
+2025-09-11 16:08:41,529 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/xmpbox/2.0.24/xmpbox-2.0.24.pom
+2025-09-11 16:08:41,894 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-core/1.0.10/openhtmltopdf-core-1.0.10.pom
+2025-09-11 16:08:41,908 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-core/1.0.10/openhtmltopdf-core-1.0.10.pom
+2025-09-11 16:08:42,186 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/graphics2d/0.32/graphics2d-0.32.pom
+2025-09-11 16:08:42,222 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/graphics2d/0.32/graphics2d-0.32.pom
+2025-09-11 16:08:42,611 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/pdfboxgraphics2d-parent/0.32/pdfboxgraphics2d-parent-0.32.pom
+2025-09-11 16:08:42,634 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/pdfboxgraphics2d-parent/0.32/pdfboxgraphics2d-parent-0.32.pom
+2025-09-11 16:08:42,964 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.pom
+2025-09-11 16:08:42,979 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.pom
+2025-09-11 16:08:43,238 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/itextpdf/itext-parent/1.0.0/itext-parent-1.0.0.pom
+2025-09-11 16:08:43,265 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/itextpdf/itext-parent/1.0.0/itext-parent-1.0.0.pom
+2025-09-11 16:08:43,595 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.pom
+2025-09-11 16:08:43,645 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.pom
+2025-09-11 16:08:43,940 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.pom
+2025-09-11 16:08:43,969 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.pom
+2025-09-11 16:08:44,353 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.25/kotlin-stdlib-jdk8-1.9.25.pom
+2025-09-11 16:08:44,380 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.25/kotlin-stdlib-jdk8-1.9.25.pom
+2025-09-11 16:08:44,648 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25.pom
+2025-09-11 16:08:44,676 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25.pom
+2025-09-11 16:08:44,951 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/annotations/13.0/annotations-13.0.pom
+2025-09-11 16:08:44,977 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/annotations/13.0/annotations-13.0.pom
+2025-09-11 16:08:45,275 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.25/kotlin-stdlib-jdk7-1.9.25.pom
+2025-09-11 16:08:45,303 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.25/kotlin-stdlib-jdk7-1.9.25.pom
+2025-09-11 16:08:45,586 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25.pom
+2025-09-11 16:08:45,610 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25.pom
+2025-09-11 16:08:45,884 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi/5.2.5/poi-5.2.5.pom
+2025-09-11 16:08:45,912 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi/5.2.5/poi-5.2.5.pom
+2025-09-11 16:08:46,301 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.pom
+2025-09-11 16:08:46,315 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.pom
+2025-09-11 16:08:46,693 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/commons-io/commons-io/2.15.0/commons-io-2.15.0.pom
+2025-09-11 16:08:46,705 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/commons-io/commons-io/2.15.0/commons-io-2.15.0.pom
+2025-09-11 16:08:47,020 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.pom
+2025-09-11 16:08:47,036 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.pom
+2025-09-11 16:08:47,330 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.pom
+2025-09-11 16:08:47,346 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.pom
+2025-09-11 16:08:47,603 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.pom
+2025-09-11 16:08:47,619 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.pom
+2025-09-11 16:08:47,939 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.pom
+2025-09-11 16:08:47,968 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.pom
+2025-09-11 16:08:48,293 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.pom
+2025-09-11 16:08:48,331 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.pom
+2025-09-11 16:08:48,654 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/knowm/xchart/xchart/3.8.6/xchart-3.8.6.pom
+2025-09-11 16:08:48,669 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/knowm/xchart/xchart/3.8.6/xchart-3.8.6.pom
+2025-09-11 16:08:48,923 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/knowm/xchart/xchart-parent/3.8.6/xchart-parent-3.8.6.pom
+2025-09-11 16:08:48,949 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/knowm/xchart/xchart-parent/3.8.6/xchart-parent-3.8.6.pom
+2025-09-11 16:08:49,251 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+2025-09-11 16:08:49,277 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.pom
+2025-09-11 16:08:49,575 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/graphics2d/3.0.0/graphics2d-3.0.0.pom
+2025-09-11 16:08:49,599 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/graphics2d/3.0.0/graphics2d-3.0.0.pom
+2025-09-11 16:08:49,898 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/pdfboxgraphics2d-parent/3.0.0/pdfboxgraphics2d-parent-3.0.0.pom
+2025-09-11 16:08:49,921 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/pdfboxgraphics2d-parent/3.0.0/pdfboxgraphics2d-parent-3.0.0.pom
+2025-09-11 16:08:50,247 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox/3.0.0/pdfbox-3.0.0.pom
+2025-09-11 16:08:50,278 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox/3.0.0/pdfbox-3.0.0.pom
+2025-09-11 16:08:50,562 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox-parent/3.0.0/pdfbox-parent-3.0.0.pom
+2025-09-11 16:08:50,576 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox-parent/3.0.0/pdfbox-parent-3.0.0.pom
+2025-09-11 16:08:50,884 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox-io/3.0.0/pdfbox-io-3.0.0.pom
+2025-09-11 16:08:50,901 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox-io/3.0.0/pdfbox-io-3.0.0.pom
+2025-09-11 16:08:51,213 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/fontbox/3.0.0/fontbox-3.0.0.pom
+2025-09-11 16:08:51,238 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/fontbox/3.0.0/fontbox-3.0.0.pom
+2025-09-11 16:08:51,624 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+2025-09-11 16:08:51,654 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.pom
+2025-09-11 16:08:56,303 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter-mail/3.4.6/spring-boot-starter-mail-3.4.6.jar
+2025-09-11 16:08:56,324 [Worker-14: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter-mail/3.4.6/spring-boot-starter-mail-3.4.6.jar
+2025-09-11 16:08:56,574 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/spring-context-support/6.2.7/spring-context-support-6.2.7.jar
+2025-09-11 16:08:56,812 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter-thymeleaf/3.4.6/spring-boot-starter-thymeleaf-3.4.6.jar
+2025-09-11 16:08:56,817 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar
+2025-09-11 16:08:56,821 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-pdfbox/1.0.10/openhtmltopdf-pdfbox-1.0.10.jar
+2025-09-11 16:08:56,825 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/eclipse/angus/jakarta.mail/2.0.3/jakarta.mail-2.0.3.jar
+2025-09-11 16:08:56,835 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/boot/spring-boot-starter-thymeleaf/3.4.6/spring-boot-starter-thymeleaf-3.4.6.jar
+2025-09-11 16:08:57,074 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar
+2025-09-11 16:08:57,252 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/springframework/spring-context-support/6.2.7/spring-context-support-6.2.7.jar
+2025-09-11 16:08:57,521 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/xmpbox/2.0.24/xmpbox-2.0.24.jar
+2025-09-11 16:08:57,546 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/xmpbox/2.0.24/xmpbox-2.0.24.jar
+2025-09-11 16:08:57,735 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-pdfbox/1.0.10/openhtmltopdf-pdfbox-1.0.10.jar
+2025-09-11 16:08:57,798 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-core/1.0.10/openhtmltopdf-core-1.0.10.jar
+2025-09-11 16:08:58,001 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/eclipse/angus/jakarta.mail/2.0.3/jakarta.mail-2.0.3.jar
+2025-09-11 16:08:58,030 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/graphics2d/0.32/graphics2d-0.32.jar
+2025-09-11 16:08:58,052 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/rototor/pdfbox/graphics2d/0.32/graphics2d-0.32.jar
+2025-09-11 16:08:58,252 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar
+2025-09-11 16:08:58,317 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/openhtmltopdf/openhtmltopdf-core/1.0.10/openhtmltopdf-core-1.0.10.jar
+2025-09-11 16:08:58,339 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar
+2025-09-11 16:08:58,531 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/fontbox/2.0.24/fontbox-2.0.24.jar
+2025-09-11 16:08:58,588 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar
+2025-09-11 16:08:58,644 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/squareup/okio/okio-jvm/3.0.0/okio-jvm-3.0.0.jar
+2025-09-11 16:08:58,689 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/pdfbox/pdfbox/2.0.24/pdfbox-2.0.24.jar
+2025-09-11 16:08:58,799 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/itextpdf/itextpdf/5.5.13.3/itextpdf-5.5.13.3.jar
+2025-09-11 16:08:58,819 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.25/kotlin-stdlib-jdk8-1.9.25.jar
+2025-09-11 16:08:58,828 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/squareup/okhttp3/okhttp/4.10.0/okhttp-4.10.0.jar
+2025-09-11 16:08:58,861 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.9.25/kotlin-stdlib-jdk8-1.9.25.jar
+2025-09-11 16:08:58,931 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.25/kotlin-stdlib-jdk7-1.9.25.jar
+2025-09-11 16:08:58,941 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25.jar
+2025-09-11 16:08:58,971 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.9.25/kotlin-stdlib-jdk7-1.9.25.jar
+2025-09-11 16:08:58,975 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25.jar
+2025-09-11 16:08:59,049 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25.jar
+2025-09-11 16:08:59,141 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/annotations/13.0/annotations-13.0.jar
+2025-09-11 16:08:59,150 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi/5.2.5/poi-5.2.5.jar
+2025-09-11 16:08:59,164 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/annotations/13.0/annotations-13.0.jar
+2025-09-11 16:08:59,259 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+2025-09-11 16:08:59,282 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar
+2025-09-11 16:08:59,347 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar
+2025-09-11 16:08:59,479 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar
+2025-09-11 16:08:59,517 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi/5.2.5/poi-5.2.5.jar
+2025-09-11 16:08:59,530 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/commons-io/commons-io/2.15.0/commons-io-2.15.0.jar
+2025-09-11 16:08:59,559 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar
+2025-09-11 16:08:59,606 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar
+2025-09-11 16:08:59,652 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/zaxxer/SparseBitSet/1.3/SparseBitSet-1.3.jar
+2025-09-11 16:08:59,686 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25.jar
+2025-09-11 16:08:59,772 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar
+2025-09-11 16:08:59,828 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar
+2025-09-11 16:08:59,974 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar
+2025-09-11 16:09:00,076 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar
+2025-09-11 16:09:00,110 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/xmlbeans/xmlbeans/5.2.0/xmlbeans-5.2.0.jar
+2025-09-11 16:09:00,133 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar
+2025-09-11 16:09:00,159 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/commons/commons-compress/1.25.0/commons-compress-1.25.0.jar
+2025-09-11 16:09:00,162 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/github/virtuald/curvesapi/1.08/curvesapi-1.08.jar
+2025-09-11 16:09:00,398 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/knowm/xchart/xchart/3.8.6/xchart-3.8.6.jar
+2025-09-11 16:09:00,415 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi-ooxml/5.2.5/poi-ooxml-5.2.5.jar
+2025-09-11 16:09:00,445 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/knowm/xchart/xchart/3.8.6/xchart-3.8.6.jar
+2025-09-11 16:09:00,461 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+2025-09-11 16:09:00,461 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+2025-09-11 16:09:00,486 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/com/madgag/animated-gif-lib/1.4/animated-gif-lib-1.4.jar
+2025-09-11 16:09:00,489 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.13/VectorGraphics2D-0.13.jar
+2025-09-11 16:09:00,512 [BasicRepositoryConnector-nexus.emt.cdg-smt.de.bosch.com-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.emt.cdg-smt.de.bosch.com:8280/nexus/content/repositories/central/org/apache/poi/poi-ooxml-lite/5.2.5/poi-ooxml-lite-5.2.5.jar
+2025-09-11 16:14:47,207 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-11 16:14:54,631 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file U:\.config\jgit\config.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-11 16:14:54,646 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[U:\.config\jgit\config]'
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-11 16:24:19,641 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-11 16:24:19,642 [Worker-2: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 0 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-11 16:25:42,587 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-11 16:25:42,587 [Worker-5: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 0 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-11 16:28:31,269 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-11 16:28:40,562 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file U:\.config\jgit\config.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-11 16:28:40,579 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[U:\.config\jgit\config]'
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:03:35,719 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-12 10:03:42,599 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file U:\.config\jgit\config.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:03:42,614 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[U:\.config\jgit\config]'
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:05:01,734 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-12 10:05:15,090 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file U:\.config\jgit\config.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:05:15,112 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[U:\.config\jgit\config]'
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:05:41,626 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-12 10:05:41,632 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 0 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-12 10:17:16,704 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013 [361])
+2025-09-12 10:17:16,711 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013
+2025-09-12 10:17:16,713 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\aopalliance-1.0.jar
+2025-09-12 10:17:16,714 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\guice-5.1.0.jar
+2025-09-12 10:17:16,715 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpclient-4.5.14.jar
+2025-09-12 10:17:16,716 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\httpcore-4.4.16.jar
+2025-09-12 10:17:16,717 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jansi-2.4.1.jar
+2025-09-12 10:17:16,718 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\jcl-over-slf4j-1.7.36.jar
+2025-09-12 10:17:16,719 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-artifact-3.9.9.jar
+2025-09-12 10:17:16,720 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-builder-support-3.9.9.jar
+2025-09-12 10:17:16,720 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-compat-3.9.9.jar
+2025-09-12 10:17:16,721 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-core-3.9.9.jar
+2025-09-12 10:17:16,721 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-embedder-3.9.9.jar
+2025-09-12 10:17:16,723 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-3.9.9.jar
+2025-09-12 10:17:16,724 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-model-builder-3.9.9.jar
+2025-09-12 10:17:16,725 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-plugin-api-3.9.9.jar
+2025-09-12 10:17:16,726 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-repository-metadata-3.9.9.jar
+2025-09-12 10:17:16,727 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-api-1.9.22.jar
+2025-09-12 10:17:16,727 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-connector-basic-1.9.22.jar
+2025-09-12 10:17:16,728 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-impl-1.9.22.jar
+2025-09-12 10:17:16,729 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-named-locks-1.9.22.jar
+2025-09-12 10:17:16,730 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-provider-3.9.9.jar
+2025-09-12 10:17:16,731 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-spi-1.9.22.jar
+2025-09-12 10:17:16,731 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-file-1.9.22.jar
+2025-09-12 10:17:16,733 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-http-1.9.22.jar
+2025-09-12 10:17:16,733 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-transport-wagon-1.9.22.jar
+2025-09-12 10:17:16,734 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-resolver-util-1.9.22.jar
+2025-09-12 10:17:16,735 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-3.9.9.jar
+2025-09-12 10:17:16,736 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-settings-builder-3.9.9.jar
+2025-09-12 10:17:16,737 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\maven-shared-utils-3.4.2.jar
+2025-09-12 10:17:16,738 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.inject-0.9.0.M3.jar
+2025-09-12 10:17:16,738 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\org.eclipse.sisu.plexus-0.9.0.M3.jar
+2025-09-12 10:17:16,739 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-0.0.7.jar
+2025-09-12 10:17:16,740 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-build-api-1.2.0.jar
+2025-09-12 10:17:16,741 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-cipher-2.0.jar
+2025-09-12 10:17:16,741 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-classworlds-2.8.0.jar
+2025-09-12 10:17:16,743 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-component-annotations-2.1.0.jar
+2025-09-12 10:17:16,744 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-interpolation-1.27.jar
+2025-09-12 10:17:16,745 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-sec-dispatcher-2.0.jar
+2025-09-12 10:17:16,746 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-utils-3.5.1.jar
+2025-09-12 10:17:16,746 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\plexus-xml-3.0.1.jar
+2025-09-12 10:17:16,747 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-file-3.5.3.jar
+2025-09-12 10:17:16,748 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-3.5.3.jar
+2025-09-12 10:17:16,749 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-http-shared-3.5.3.jar
+2025-09-12 10:17:16,750 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013\jars\wagon-provider-api-3.5.3.jar
+2025-09-12 10:17:16,755 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava_33.4.0.jre [29])
+2025-09-12 10:17:16,757 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\com.google.guava_33.4.0.jre.jar
+2025-09-12 10:17:16,758 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=slf4j.api_2.0.17 [608])
+2025-09-12 10:17:16,760 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\slf4j.api_2.0.17.jar
+2025-09-12 10:17:16,760 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.inject.jakarta.inject-api_1.0.5 [45])
+2025-09-12 10:17:16,762 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\jakarta.inject.jakarta.inject-api_1.0.5.jar
+2025-09-12 10:17:16,762 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=jakarta.annotation-api_1.3.5 [41])
+2025-09-12 10:17:16,763 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\jakarta.annotation-api_1.3.5.jar
+2025-09-12 10:17:16,764 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.cli_1.9.0 [77])
+2025-09-12 10:17:16,766 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.apache.commons.cli_1.9.0.jar
+2025-09-12 10:17:16,766 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=org.apache.commons.commons-codec_1.16.0 [79])
+2025-09-12 10:17:16,768 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\org.apache.commons.commons-codec_1.16.0.jar
+2025-09-12 10:17:16,768 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - getClasspathEntries(Bundle=com.google.guava.failureaccess_1.0.2 [30])
+2025-09-12 10:17:16,770 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\sts-4.29.1.RELEASE\plugins\com.google.guava.failureaccess_1.0.2.jar
+2025-09-12 10:17:16,805 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend 5 (1).zip_expanded\OrderCraft_Backend":
+2025-09-12 10:17:16,806 [Worker-5: Launching Executing clean in C__Users_KUG1HYD_Desktop_FullProject_OrderCraft_Backend_OrderCraft_Backend 5 (1).zip_expanded_OrderCraft_Backend] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always clean
+2025-09-12 10:27:50,359 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-12 10:28:03,564 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file U:\.config\jgit\config.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:28:03,593 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[U:\.config\jgit\config]'
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:35:03,354 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: OrderCraft_Backend5:OrderCraft_Backend5:0.0.1-SNAPSHOT @ C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend 5 (1).zip_expanded\pom.xml.
+2025-09-12 10:35:06,012 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OrderCraft_Backend 5 (1).zip_expanded/src/main/java
+2025-09-12 10:35:06,021 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OrderCraft_Backend 5 (1).zip_expanded/src/main/resources
+2025-09-12 10:35:06,022 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OrderCraft_Backend 5 (1).zip_expanded/src/test/java
+2025-09-12 10:35:06,025 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OrderCraft_Backend 5 (1).zip_expanded/src/test/resources
+2025-09-12 10:35:10,229 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-12 10:35:11,974 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: OrderCraft_Backend5:OrderCraft_Backend5:0.0.1-SNAPSHOT @ C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend 5 (1).zip_expanded\pom.xml.
+2025-09-12 10:35:13,899 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OrderCraft_Backend 5 (1).zip_expanded/src/main/java
+2025-09-12 10:35:13,908 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OrderCraft_Backend 5 (1).zip_expanded/src/main/resources
+2025-09-12 10:35:13,910 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /OrderCraft_Backend 5 (1).zip_expanded/src/test/java
+2025-09-12 10:35:13,919 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /OrderCraft_Backend 5 (1).zip_expanded/src/test/resources
+2025-09-12 10:35:14,883 [Worker-10: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 2.00 sec 
+2025-09-12 10:38:21,244 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-12 10:38:30,124 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file U:\.config\jgit\config.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:38:30,143 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[U:\.config\jgit\config]'
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:40:47,381 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-12 10:40:55,976 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file U:\.config\jgit\config.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:40:56,005 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[U:\.config\jgit\config]'
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:43:15,228 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-12 10:44:07,397 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-12 10:46:26,472 [JGit-FileStoreAttributeWriter-1] ERROR o.e.j.i.storage.file.LockFile - Creating lock file U:\.config\jgit\config.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:46:26,493 [JGit-FileStoreAttributeWriter-1] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[U:\.config\jgit\config]'
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively0(Native Method)
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(WinNTFileSystem.java:536)
+	at java.base/java.io.File.createNewFile(File.java:1045)
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1785)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFile(LockFile.java:173)
+	at org.eclipse.jgit.internal.storage.file.LockFile.createLockFileWithRetry(LockFile.java:165)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:146)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:750)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:432)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-09-12 10:46:30,239 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.boot.ordercraft:OrderCraft:0.0.1-SNAPSHOT @ C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\pom.xml.
+2025-09-12 10:47:22,602 [Worker-6: Launching OrderCraft_Backend - OrderCraftBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-12 10:47:22,661 [Worker-6: Launching OrderCraft_Backend - OrderCraftBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-12 10:47:22,674 [Worker-6: Launching OrderCraft_Backend - OrderCraftBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\KUG1HYD\Desktop\FullProject\OrderCraft_Backend\OrderCraft_Backend\src\test\resources
+2025-09-25 12:00:44,937 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-09-25 12:02:04,852 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-16 10:16:05,202 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-11-10 09:58:52,952 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <title>Purchase Invoice</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 40px;
+      color: #333;
+      background-color: #fff;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    .info-section {
+      margin-bottom: 20px;
+    }
+
+    .info-section p {
+      margin: 4px 0;
+      font-size: 14px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 20px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: #777;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Purchase Invoice</h2>
+
+  <div class="info-section">
+    <p><strong>Order ID:</strong> <span th:text="${order.purchaseOrderId}">123</span></p>
+    <p><strong>Order Date:</strong> <span th:text="${order.orderDate}">2025-07-30</span></p>
+    <p><strong>Expected Delivery:</strong> <span th:text="${order.expectedDelivery}">2025-08-05</span></p>
+    <p><strong>Status:</strong> <span th:text="${order.deliveryStatus}">Pending</span></p>
+  </div>
+
+  <hr />
+
+  <table>
+    <thead>
+      <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Qty</th>
+        <th>Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr th:each="item : ${order.items}">
+        <td th:text="${item.product.productId}">P001</td>
+        <td th:text="${item.product.productName}">Widget A</td>
+        <td th:text="${item.quantity}">2</td>
+        <td th:text="${item.cost}">499.00</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footer">
+    <p>Thank you for your purchase!</p>
+  </div>
+
+</body>
+</html>

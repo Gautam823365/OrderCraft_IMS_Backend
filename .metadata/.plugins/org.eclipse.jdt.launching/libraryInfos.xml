@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+    <libraryInfo home="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk" version="1.8.0_372">
+        <bootpath>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files (x86)\RedHat\java-1.8.0-openjdk\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\Program Files\RedHat\java-1.8.0-openjdk" version="1.8.0_462">
+        <bootpath>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\lib\resources.jar"/>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\lib\rt.jar"/>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\lib\sunrsasign.jar"/>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\lib\jsse.jar"/>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\lib\jce.jar"/>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\lib\charsets.jar"/>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\lib\jfr.jar"/>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\classes"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\lib\ext"/>
+            <entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="C:\Program Files\RedHat\java-1.8.0-openjdk\jre\lib\endorsed"/>
+        </endorsedDirs>
+    </libraryInfo>
+    <libraryInfo home="C:\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre" version="21.0.6"/>
+    <libraryInfo home="C:\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529" version="21.0.6">
+        <bootpath>
+            <entry path="null"/>
+        </bootpath>
+        <extensionDirs>
+            <entry path="null"/>
+        </extensionDirs>
+        <endorsedDirs>
+            <entry path="null"/>
+        </endorsedDirs>
+    </libraryInfo>
+</libraryInfos>

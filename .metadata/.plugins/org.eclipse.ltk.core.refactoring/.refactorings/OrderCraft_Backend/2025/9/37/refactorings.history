@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;OrderCraft_Backend&apos;&#x0D;&#x0A;- Original project: &apos;OrderCraft_Backend&apos;&#x0D;&#x0A;- Original element: &apos;OrderCraft_Backend/src/main/java/com.boot.ordercraft.com.boot.ordercraft&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.boot.ordercraft.com.boot.ordercraft" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.boot.ordercraft.com.boot" element3="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.boot.ordercraft.com" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1757586568284" subPackages="false" version="1.0"/>
+</session>
